@@ -2,7 +2,14 @@
 module.exports = {
   content: ['./index.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Space Grotesk', 'sans-serif'],
+      },
+      colors: {
+        'grey': '#878787',
+      },
+    },
   },
   plugins: [],
 }
